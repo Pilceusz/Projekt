@@ -1,10 +1,18 @@
-﻿CREATE TABLE [dbo].[Table]
-(
-	[Id] INT NOT NULL PRIMARY KEY, 
-    [FirstName] NCHAR(10) NULL, 
-    [LastName] NCHAR(10) NULL, 
-    [Login] NCHAR(10) NULL, 
-    [Hasło] NCHAR(10) NULL, 
-    [EmailAddress] NCHAR(10) NULL, 
-    [Loan] NCHAR(10) NULL
-)
+﻿USE [Baza]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO 
+
+ALTER PROCEDURE [dbo].[People_GetByLastName]
+	@LastName nvarchar (50)
+AS
+BEGIN
+	SET NOCOUNT ON;
+
+	select *
+	from dbo.People
+	where LastName = @LastName;
+END

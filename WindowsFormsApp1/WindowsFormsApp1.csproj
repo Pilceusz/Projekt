@@ -73,11 +73,11 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="BazaDataSet.Designer.cs">
+    <None Include="BazaDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BazaDataSet.xsd</DependentUpon>
-    </Compile>
+    </None>
     <Compile Include="DataAccess.cs" />
     <Compile Include="Welcome.cs">
       <SubType>Form</SubType>
@@ -148,11 +148,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <Compile Include="Properties\Settings.Designer.cs">
+    <None Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -161,13 +161,13 @@
     <None Include="Resources\717-money-bag.svg.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Baza.mdf">
+    <None Include="Baza.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Baza_log.ldf">
+    </None>
+    <None Include="Baza_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Baza.mdf</DependentUpon>
-    </Content>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

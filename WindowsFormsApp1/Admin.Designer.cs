@@ -49,6 +49,7 @@
             this.PasswordInsTxt = new System.Windows.Forms.TextBox();
             this.PasswordIns = new System.Windows.Forms.Label();
             this.AddUser = new System.Windows.Forms.Button();
+            this.AdminLogout = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,27 +62,27 @@
             this.listaAktualnychDłużnikówToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // podsumowanieToolStripMenuItem
             // 
             this.podsumowanieToolStripMenuItem.Name = "podsumowanieToolStripMenuItem";
-            this.podsumowanieToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
+            this.podsumowanieToolStripMenuItem.Size = new System.Drawing.Size(123, 26);
             this.podsumowanieToolStripMenuItem.Text = "Podsumowanie";
             // 
             // historiaKredytowaToolStripMenuItem
             // 
             this.historiaKredytowaToolStripMenuItem.Name = "historiaKredytowaToolStripMenuItem";
-            this.historiaKredytowaToolStripMenuItem.Size = new System.Drawing.Size(148, 24);
+            this.historiaKredytowaToolStripMenuItem.Size = new System.Drawing.Size(148, 26);
             this.historiaKredytowaToolStripMenuItem.Text = "Historia kredytowa";
             this.historiaKredytowaToolStripMenuItem.Click += new System.EventHandler(this.historiaKredytowaToolStripMenuItem_Click);
             // 
             // listaAktualnychDłużnikówToolStripMenuItem
             // 
             this.listaAktualnychDłużnikówToolStripMenuItem.Name = "listaAktualnychDłużnikówToolStripMenuItem";
-            this.listaAktualnychDłużnikówToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
+            this.listaAktualnychDłużnikówToolStripMenuItem.Size = new System.Drawing.Size(198, 26);
             this.listaAktualnychDłużnikówToolStripMenuItem.Text = "Lista aktualnych dłużników";
             // 
             // contextMenuStrip1
@@ -98,6 +99,7 @@
             this.UsersFounds.Name = "UsersFounds";
             this.UsersFounds.Size = new System.Drawing.Size(524, 180);
             this.UsersFounds.TabIndex = 4;
+            this.UsersFounds.SelectedIndexChanged += new System.EventHandler(this.UsersFounds_SelectedIndexChanged);
             // 
             // LastName
             // 
@@ -217,11 +219,22 @@
             this.AddUser.UseVisualStyleBackColor = true;
             this.AddUser.Click += new System.EventHandler(this.AddUser_Click);
             // 
+            // AdminLogout
+            // 
+            this.AdminLogout.Location = new System.Drawing.Point(615, 397);
+            this.AdminLogout.Name = "AdminLogout";
+            this.AdminLogout.Size = new System.Drawing.Size(159, 33);
+            this.AdminLogout.TabIndex = 19;
+            this.AdminLogout.Text = "Wyloguj się";
+            this.AdminLogout.UseVisualStyleBackColor = true;
+            this.AdminLogout.Click += new System.EventHandler(this.AdminLogout_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.AdminLogout);
             this.Controls.Add(this.AddUser);
             this.Controls.Add(this.PasswordIns);
             this.Controls.Add(this.PasswordInsTxt);
@@ -271,5 +284,6 @@
         private System.Windows.Forms.TextBox PasswordInsTxt;
         private System.Windows.Forms.Label PasswordIns;
         private System.Windows.Forms.Button AddUser;
+        private System.Windows.Forms.Button AdminLogout;
     }
 }

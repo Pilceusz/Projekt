@@ -77,5 +77,17 @@ namespace WindowsFormsApp1
 
 
         }
+
+        private void AdminLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
+
+        private void UsersFounds_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

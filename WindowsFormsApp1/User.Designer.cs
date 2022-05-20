@@ -44,6 +44,7 @@
             this.spłaćKredytToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.Logout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -71,6 +72,7 @@
             this.label5.Size = new System.Drawing.Size(150, 16);
             this.label5.TabIndex = 5;
             this.label5.Text = "Ilość potrzebnej gotówki";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -181,11 +183,22 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Potrzebujesz dodatkowej gotówki na wakacje?";
             // 
+            // Logout
+            // 
+            this.Logout.Location = new System.Drawing.Point(743, 378);
+            this.Logout.Name = "Logout";
+            this.Logout.Size = new System.Drawing.Size(210, 45);
+            this.Logout.TabIndex = 12;
+            this.Logout.Text = "Wyloguj się";
+            this.Logout.UseVisualStyleBackColor = true;
+            this.Logout.Click += new System.EventHandler(this.Logout_Click);
+            // 
             // User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 515);
+            this.Controls.Add(this.Logout);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
@@ -210,7 +223,6 @@
 
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.TrackBar trackBar2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -225,6 +237,7 @@
         private System.Windows.Forms.ToolStripMenuItem sprawdźToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem spłaćKredytToolStripMenuItem;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button Logout;
     }
 }
 
