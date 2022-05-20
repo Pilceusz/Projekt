@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -61,24 +61,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(196, 117);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 23);
+            this.label1.Size = new System.Drawing.Size(62, 23);
             this.label1.TabIndex = 4;
             this.label1.Text = "Login :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Malgun Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(196, 207);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 23);
+            this.label2.Size = new System.Drawing.Size(62, 23);
             this.label2.TabIndex = 5;
             this.label2.Text = "Hasło :";
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -88,7 +88,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button3);
-            this.Name = "Form1";
+            this.Name = "Login";
             this.Text = "Zaloguj się";
             this.ResumeLayout(false);
             this.PerformLayout();

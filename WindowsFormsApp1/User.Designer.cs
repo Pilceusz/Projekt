@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Welcome
+    partial class Main
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -31,7 +31,7 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.trackBar2 = new System.Windows.Forms.TrackBar();
             this.label5 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.środkiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,7 +42,7 @@
             this.podsumowanieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.przelewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.spłaćKredytToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
@@ -74,13 +74,13 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 323);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 16);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Ilość rat";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(42, 323);
+            this.label4.Name = "label2";
+            this.label4.Size = new System.Drawing.Size(53, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Ilość rat";
+            this.label4.Click += new System.EventHandler(this.label2_Click);
             // 
             // button6
             // 
@@ -162,13 +162,13 @@
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(32, 122);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(691, 25);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Już dziś weź kredyt 0% i nie czekaj. Spełnij swoje marzenia dzięki bankowi polski" +
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Location = new System.Drawing.Point(32, 122);
+            this.label6.Name = "label4";
+            this.label6.Size = new System.Drawing.Size(691, 25);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Już dziś weź kredyt 0% i nie czekaj. Spełnij swoje marzenia dzięki bankowi polski" +
     "emu ";
             // 
             // label7
@@ -190,7 +190,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.menuStrip1);
@@ -211,7 +211,7 @@
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.TrackBar trackBar2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem środkiToolStripMenuItem;
@@ -221,7 +221,7 @@
         private System.Windows.Forms.ToolStripMenuItem podsumowanieToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem przelewToolStripMenuItem;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ToolStripMenuItem sprawdźToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem spłaćKredytToolStripMenuItem;
         private System.Windows.Forms.Label label7;

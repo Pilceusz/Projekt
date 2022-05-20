@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Welcome : Form
+    public partial class Main : Form
     {
-        public Welcome()
+        public Main()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }
