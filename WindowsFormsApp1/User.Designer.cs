@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Main
+    partial class User
     {
         /// <summary>
         /// Wymagana zmienna projektanta.
@@ -72,11 +72,11 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "Ilość potrzebnej gotówki";
             // 
-            // label2
+            // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(42, 323);
-            this.label4.Name = "label2";
+            this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(53, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Ilość rat";
@@ -102,7 +102,7 @@
             this.spłaćKredytToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(965, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(965, 28);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -112,7 +112,7 @@
             this.wpłataŚrodkówNaKontoToolStripMenuItem,
             this.wypłataŚrodkówZKontaToolStripMenuItem});
             this.środkiToolStripMenuItem.Name = "środkiToolStripMenuItem";
-            this.środkiToolStripMenuItem.Size = new System.Drawing.Size(65, 26);
+            this.środkiToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
             this.środkiToolStripMenuItem.Text = "Środki";
             // 
             // wpłataŚrodkówNaKontoToolStripMenuItem
@@ -132,40 +132,40 @@
             this.historiaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sprawdźToolStripMenuItem});
             this.historiaToolStripMenuItem.Name = "historiaToolStripMenuItem";
-            this.historiaToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.historiaToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.historiaToolStripMenuItem.Text = "Historia";
             this.historiaToolStripMenuItem.Click += new System.EventHandler(this.historiaToolStripMenuItem_Click);
             // 
             // sprawdźToolStripMenuItem
             // 
             this.sprawdźToolStripMenuItem.Name = "sprawdźToolStripMenuItem";
-            this.sprawdźToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sprawdźToolStripMenuItem.Size = new System.Drawing.Size(149, 26);
             this.sprawdźToolStripMenuItem.Text = "Sprawdź";
             // 
             // podsumowanieToolStripMenuItem
             // 
             this.podsumowanieToolStripMenuItem.Name = "podsumowanieToolStripMenuItem";
-            this.podsumowanieToolStripMenuItem.Size = new System.Drawing.Size(123, 26);
+            this.podsumowanieToolStripMenuItem.Size = new System.Drawing.Size(123, 24);
             this.podsumowanieToolStripMenuItem.Text = "Podsumowanie";
             // 
             // przelewToolStripMenuItem
             // 
             this.przelewToolStripMenuItem.Name = "przelewToolStripMenuItem";
-            this.przelewToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
+            this.przelewToolStripMenuItem.Size = new System.Drawing.Size(74, 24);
             this.przelewToolStripMenuItem.Text = "Przelew";
             // 
             // spłaćKredytToolStripMenuItem
             // 
             this.spłaćKredytToolStripMenuItem.Name = "spłaćKredytToolStripMenuItem";
-            this.spłaćKredytToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
+            this.spłaćKredytToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
             this.spłaćKredytToolStripMenuItem.Text = "Spłać kredyt";
             // 
-            // label4
+            // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label6.Location = new System.Drawing.Point(32, 122);
-            this.label6.Name = "label4";
+            this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(691, 25);
             this.label6.TabIndex = 10;
             this.label6.Text = "Już dziś weź kredyt 0% i nie czekaj. Spełnij swoje marzenia dzięki bankowi polski" +
@@ -181,7 +181,7 @@
             this.label7.TabIndex = 11;
             this.label7.Text = "Potrzebujesz dodatkowej gotówki na wakacje?";
             // 
-            // Welcome
+            // User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -194,7 +194,7 @@
             this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "Welcome";
+            this.Name = "User";
             this.Text = "Konto";
             this.Load += new System.EventHandler(this.Welcome_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();

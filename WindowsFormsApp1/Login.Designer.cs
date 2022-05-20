@@ -33,6 +33,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.AdminBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button3
@@ -43,6 +44,7 @@
             this.button3.TabIndex = 1;
             this.button3.Text = "Zaloguj się";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
             // 
@@ -78,11 +80,22 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "Hasło :";
             // 
+            // AdminBtn
+            // 
+            this.AdminBtn.Location = new System.Drawing.Point(195, 405);
+            this.AdminBtn.Name = "AdminBtn";
+            this.AdminBtn.Size = new System.Drawing.Size(187, 45);
+            this.AdminBtn.TabIndex = 6;
+            this.AdminBtn.Text = "Zaloguj się jako Administrator";
+            this.AdminBtn.UseVisualStyleBackColor = true;
+            this.AdminBtn.Click += new System.EventHandler(this.AdminBtn_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(603, 515);
+            this.Controls.Add(this.AdminBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
@@ -101,6 +114,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button AdminBtn;
     }
 }
 

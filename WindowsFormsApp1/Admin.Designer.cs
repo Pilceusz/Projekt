@@ -96,7 +96,7 @@
             this.UsersFounds.ItemHeight = 16;
             this.UsersFounds.Location = new System.Drawing.Point(12, 40);
             this.UsersFounds.Name = "UsersFounds";
-            this.UsersFounds.Size = new System.Drawing.Size(505, 180);
+            this.UsersFounds.Size = new System.Drawing.Size(524, 180);
             this.UsersFounds.TabIndex = 4;
             // 
             // LastName

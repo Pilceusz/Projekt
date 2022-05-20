@@ -12,7 +12,8 @@ namespace WindowsFormsApp1
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         public string EmailAddress { get; set; }
-
+        public string Login { get; set; }
+        public string Password { get; set; }
 
         public string  FullInfo
         {
@@ -24,7 +25,6 @@ namespace WindowsFormsApp1
             
         }
 
-        public string Login { get; internal set; }
-        public string Password { get; internal set; }
+        
     }
 }

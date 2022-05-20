@@ -10,27 +10,26 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Main : Form
+    public partial class Welcome : Form
     {
-
-
-        private void label1_Click(object sender, EventArgs e)
+        public Welcome()
         {
-
+            InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void LoginBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Login f1 = new Login();
-            f1.Show ();
+            Login lg = new Login();
+            lg.Show();
+
         }
 
         private void RegisterBtn_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Register f1 = new Register();
-            f1.Show();
+            Register lg = new Register();
+            lg.Show();
         }
     }
 }
